@@ -1,0 +1,19 @@
+{
+  "name": "angular-testdriven-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gregory-Phillips/angular-testdriven-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gregory-Phillips/angular-testdriven-app/issues"
+  },
+  "homepage": "https://github.com/Gregory-Phillips/angular-testdriven-app#readme"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "angular-testdriven-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Gregory-Phillips/angular-testdriven-app",
+  "authors": [
+    "Gregory-Phillips <gregoryfphillips@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.2"
+  }
+}
