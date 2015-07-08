@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Gregory-Phillips/angular-testdriven-app/issues"
   },
-  "homepage": "https://github.com/Gregory-Phillips/angular-testdriven-app#readme"
+  "homepage": "https://github.com/Gregory-Phillips/angular-testdriven-app#readme",
+  "dependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0"
+  }
 }
