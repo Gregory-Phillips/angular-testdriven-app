@@ -5,9 +5,15 @@
 
   var gulp = require('gulp'),
     browserSync = require('browser-sync'),
-    karma = require('karma').server;
+    karma = require('karma').server,
+    server = require('gulp-live-server');
 
-  gulp.task('serve', function () {
+  gulp.task('server', function () {
+    var live = new server('server.js');
+    live.start();
+  });
+
+  gulp.task('serve', ['server'], function () {
     browserSync.init({
       notify: false,
       port: 8080,
