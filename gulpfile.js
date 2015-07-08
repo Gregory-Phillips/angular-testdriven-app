@@ -4,7 +4,8 @@
   'use strict';
 
   var gulp = require('gulp'),
-    browserSync = require('browser-sync');
+    browserSync = require('browser-sync'),
+    karma = require('karma').server;
 
   gulp.task('serve', function () {
     browserSync.init({
@@ -19,6 +20,14 @@
     });
     gulp.watch(['app/**/*.*'])
       .on('change', browserSync.reload);
+  });
+
+  gulp.task('test-browser', function () {
+    karma.start({
+      configFile: __dirname + '/karma.conf.js',
+      singleRun: true,
+      reporter: ['mocha']
+    });
   });
 
   gulp.task('serve-test', function () {
